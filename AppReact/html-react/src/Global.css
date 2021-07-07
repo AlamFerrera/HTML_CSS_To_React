@@ -67,7 +67,7 @@ h2 {
   }
   .header-grid {
     display: grid;
-    grid-template-columns: 1fr 200px;
+    grid-template-columns: 1fr 0px;
   }
 }
 
