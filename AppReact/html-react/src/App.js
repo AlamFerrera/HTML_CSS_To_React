@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {Fragment} from 'react';
+import './Global.css';
+import Header from './componentes/Header/header.jsx';
+import TopCardHeader from './componentes/Top-Card/top-card-list.jsx';
+import Overview from './componentes/Overview/overview.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Editar <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <Fragment>
+    <Header/>
+    <TopCardHeader/>
+    <Overview/>
+  </Fragment>
+
+  /* */
+
+  /*
+    <div className="App">      
     </div>
+  */
   );
 }
 
